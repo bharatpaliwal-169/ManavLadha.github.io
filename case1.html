@@ -6,6 +6,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Raleway:ital,wght@0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
@@ -19,23 +20,6 @@
 </head>
 <body>
     
-<!-- navigation -->
-<!-- 
-<nav class="navbar navbar-dark navbar-expand-md">
-    <div class="container nav-text">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse offset-sm-5" id="Navbar" role="slider">
-            <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active"><a class="nav-link" href="index.html">Work</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about.html"> About</a></li>
-            </ul>
-        </div>
-    </div>
-</nav> -->
-
-
 <ul class="nav justify-content-center navbar-dark nav-text">
     <li class="nav-item mr-5 mx-5 ">
         <a class="nav-link lin" href="index.html">Work</a>
@@ -55,8 +39,8 @@
 </header>
 
 <div class="container">
-    <div class="row">
-        <div class="col-12 col-sm-5 offset-sm-1 ">
+    <div class="row" data-aos='zoom-in' data-aos-duration="3000">
+        <div class="col-12 col-sm-5 offset-sm-1">
             <h3 class=".case-title">
                 Hearing Aid Academy
             </h3>
@@ -77,7 +61,7 @@
     
     <br><hr class="overview"><br>
 
-    <div class="row">
+    <div class="row" data-aos='fade-up' data-aos-duration="2000">
         <div class="case-head col-12 col-sm-5 offset-sm-1">
             About <br>
             Hearing Aid Academy <br>
@@ -93,7 +77,7 @@
 
     <br><hr class="Designprocess"><br>
 
-    <div class="row">
+    <div class="row"data-aos='fade-up' data-aos-duration="2000">
         <div class="case-head col-12 col-sm-4 offset-sm-1">
             Empathize
         </div>
@@ -143,7 +127,7 @@
                 Reading just long text for the explanation of s <br>
             </div>
         </div>
-        <div class="case-head col-12 col-sm-4 offset-sm-1 mt-5">
+        <div class="case-head col-12 col-sm-4 offset-sm-1 mt-5"data-aos='fade-up' data-aos-duration="2000">
             Solutions —
             Things to Have
         </div>
@@ -160,20 +144,20 @@
             </div>
         </div>
 
-        <div class="case-head col-12 col-sm-2 offset-sm-1 align-self-center">
+        <div class="case-head col-12 col-sm-2 offset-sm-1 align-self-center"data-aos='fade-up' data-aos-duration="2000">
             Mid - Fidelity Wireframes
         </div>
-        <div class="col-6 col-sm-4 mt-5">
+        <div class="col-6 col-sm-4 mt-5"data-aos='fade-up' data-aos-duration="2000">
                 <img src="images/Web 1920 – 1.png" class="img-fluid" alt="wireframe">
         </div>
-        <div class="col-6 col-sm-4 mt-5">
+        <div class="col-6 col-sm-4 mt-5"data-aos='fade-up' data-aos-duration="2000">
             <img src="images/Web 1920 – 126.png" class="img-fluid" alt="wireframe">
         </div>
 
-        <div class="case-head col-12 col-sm-3 offset-sm-1 mt-5">
+        <div class="case-head col-12 col-sm-3 offset-sm-1 mt-5"data-aos='fade-up' data-aos-duration="2000">
             High - Fidelity Wireframes
         </div>
-        <div class="col-12 col-sm-7 mt-5">
+        <div class="col-12 col-sm-7 mt-5"data-aos='fade-up' data-aos-duration="2000">
             <img src="images/ID21may__12.png" class="img-fluid" alt="big img">
         </div>
     </div>
@@ -181,7 +165,7 @@
     
     <br><hr class="finalthought">
 
-    <div class="row">
+    <div class="row"data-aos='fade-up' data-aos-duration="2000">
         <div class="case-head col-12 col-sm-4 offset-sm-1 mt-5">
             Closing thoughts
         </div>
@@ -233,6 +217,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="scripts/main.js"></script>
 </body>
 </html>
