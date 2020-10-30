@@ -9,7 +9,8 @@
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Raleway:ital,wght@0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
-    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <script src="https://kit.fontawesome.com/5ba01f7dd3.js" crossorigin="anonymous"></script>
         
     <link rel="stylesheet" href="css/style.css">
@@ -18,21 +19,6 @@
     <link rel="shortcut icon" href="images/icn1.png" type="image/png-icon">
 </head>
 <body>
-<!-- navigation -->
-<!-- <nav class="navbar navbar-dark navbar-expand-md">
-    <div class="container nav-text">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse offset-5" id="Navbar" role="slider">
-            <ul class="navbar-nav mr-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Work</a></li>
-                    <li class="nav-item active"><a class="nav-link" href="about.html"> About</a></li>
-            </ul>
-        </div>
-    </div>
-</nav> -->
-
 
 <ul class="nav justify-content-center navbar-dark nav-text ">
     <li class="nav-item mr-5 mx-5 ">
@@ -50,18 +36,18 @@
 </header>
 
 <div class="container">
-    <div class="row mb-5">
+    <div class="row mb-5" data-aos='zoom-in' data-aos-duration="2000">
         <div class="col-3 col-sm-1" >
             <a href="https://www.linkedin.com/in/manavladha/" target="_blank" ><i class="fab fa-linkedin-in fa-lg iconop"></i></a>
             <a href="https://dribbble.com/manavladha" target="_blank" > <i class="fab fa-dribbble fa-lg iconop"></i> </a> 
             <a href="https://www.behance.net/manavladha01"target="_blank" > <i class="fab fa-behance fa-lg iconop"></i> </a>
         </div>
 
-        <div class="col-7 col-sm-4">
+        <div class="col-7 col-sm-4" data-aos='zoom-out' data-aos-duration="3000">
             <img src="images/DSC_0103.png" class="img-fluid" alt="profile">
         </div>
 
-        <div class="abt col-12 col-sm-5 offset-sm-1"><br>
+        <div class="abt col-12 col-sm-5 offset-sm-1" data-aos='fade-up' data-aos-duration="2000"><br>
             <section >
                 <p>
                     Hey! I'm a digital product designer passionate about solving
@@ -109,17 +95,17 @@
 
     <hr class= "photo">
 
-    <div class="row mt-5 mb-5">
-        <div class="col-12 col-sm-5 offset-sm-1 mt-2">
+    <div class="row mt-5 mb-5" data-aos='fade-up' data-aos-duration="2000">
+        <div class="col-12 col-sm-5 offset-sm-1 mt-2" data-aos='fade-left' data-aos-duration="2000">
             <img src="images/photo 1.jpg" class="img-fluid" alt="product">
         </div>
-        <div class="col-12 col-sm-5 offset-sm-1 mt-2">
+        <div class="col-12 col-sm-5 offset-sm-1 mt-2"data-aos='fade-left' data-aos-duration="2000">
             <img src="images/photo 2.jpg" class="img-fluid" alt="product">
         </div>
-        <div class="col-12 col-sm-5 offset-sm-1 mt-3">
+        <div class="col-12 col-sm-5 offset-sm-1 mt-3"data-aos='fade-right' data-aos-duration="2000">
             <img src="images/Group 17.png" alt="product" class="img-fluid">
         </div>
-        <div class="col-12 col-sm-5 offset-sm-1 mt-5">
+        <div class="col-12 col-sm-5 offset-sm-1 mt-5"data-aos='fade-right' data-aos-duration="2000">
             <img class="img-fluid" src="images/Group 11.jpg" alt="product">
         </div>
     </div>
@@ -147,6 +133,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="scripts/main.js"></script>
 </body>
 </html>
