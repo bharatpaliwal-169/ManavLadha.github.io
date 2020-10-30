@@ -7,7 +7,7 @@
 
     <meta name="image" property="og:image" content="https://manav-portfolio.netlify.app/images/desp.png" >
     <meta name="description" property="og:description" content="This is a Product Design Portfolio Website of Manav Ladha">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     <!-- fonts -->
@@ -30,22 +30,6 @@
 </head>
 <body>
 
-<!-- navigation -->
-
-<!-- <nav class="navbar navbar-dark navbar-expand-md">
-    <div class="container nav-text">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse offset-5" id="Navbar" role="slider">
-            <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active"><a class="nav-link" href="index.html">Work</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about.html"> About</a></li>
-            </ul>
-        </div>
-    </div>
-</nav> -->
-
 <ul class="nav justify-content-center navbar-dark nav-text ">
     <li class="nav-item mr-5 mx-5 ">
         <a class="nav-link lin" href="index.html">Work</a>
@@ -59,7 +43,7 @@
 
 <header class="jumbotron">
     <div class="container top">
-        <div class="row  text-center ">
+        <div class="row  text-center "data-aos='zoom-in' data-aos-duration="3000">
             <div class="col-12">
                 <h2 class="main-head "> <span class="text-muted" >
                     👋 Hello, my name is Manav Ladha and I'm a </span> Product Designer.
@@ -85,7 +69,7 @@
 <div class="container">
     <hr class="one">
     <!-- <p class="text-muted">01.</p> -->
-    <div class="row mt-5 mb-5" > 
+    <div class="row mt-5 mb-5" data-aos='fade-up' data-aos-duration="2000"> 
         <div class="col-12 col-md-5 offset-sm-1 ">
             <h3 class="head-home ">Hearing Aid Academy</h3>
             <h5 class="text-muted mt-3 mut" > Website Redesign</h5>
@@ -109,7 +93,7 @@
     
     <hr class="two">
     
-    <div class="row mt-5 mb-5" > 
+    <div class="row mt-5 mb-5" data-aos='fade-up' data-aos-duration="2000"> 
         <div class="col-12 col-sm-4 offset-sm-1">
             <img src="images/neighbor hub-1.png" class="img-fluid" alt="responsivce img">
         </div>
@@ -134,7 +118,7 @@
     
     <hr class="three">
 
-    <div class="row mt-5 mb-5" > 
+    <div class="row mt-5 mb-5" data-aos='fade-up' data-aos-duration="2000"> 
         <div class="col-12 col-md-5 offset-sm-1 ">
             <h3 class="head-home">Himalayan</h3>
             <h5 class="text-muted mt-3 mut" > Website Design</h5>
@@ -157,7 +141,7 @@
     
     <hr class="four">
 
-    <div class="row mt-5 mb-5" >
+    <div class="row mt-5 mb-5" data-aos='fade-up' data-aos-duration="2000">
         <div class="col-12 col-sm-4 offset-sm-1">
             <img src="images/Group 4.png" class="img-fluid" alt="responsivce img">
         </div> 
@@ -201,6 +185,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="scripts/main.js"></script>
 </body>
 </html>
