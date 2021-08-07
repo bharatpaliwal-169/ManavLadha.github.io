@@ -1,7 +1,7 @@
 body{
-    background:#1A1D20;
+    background:#101010;
     color: #FFFFFF;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .navbar-dark{
@@ -13,10 +13,9 @@ body{
 
 .nav-text{
     font-size: 16px;
-    font-family: 'Roboto',sans-serif;
-    font-weight: 400;
-
-    letter-spacing: 0.5px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 600;
+    letter-spacing: 0px;
     padding: 10px;
 }
 .nav-item{
@@ -26,6 +25,17 @@ body{
     padding-right: 20px;
     padding-top: 20px;
     margin-right: 20px;
+}
+.heythere{
+     font-family: 'Inter';
+     font-size: 80px;
+}
+
+@media screen and (max-width: 1200px) {
+    .heythere{
+        font-size: 48px;
+    }
+
 }
 
 /*button hover*/
@@ -44,7 +54,7 @@ body{
     outline: 0;
     font-weight: 600;
     border-radius: 60px; 
-    font-family:'Roboto',sans-serif!important;
+    font-family:'Inter',sans-serif!important;
     font-size: 16px;
 }
 
@@ -108,7 +118,7 @@ body{
     outline: 0;
     font-weight: 600;
     border-radius: 60px; 
-    font-family:'Roboto',sans-serif!important;
+    font-family:'Inter',sans-serif!important;
     font-size: 14px;
     
 }
@@ -167,7 +177,7 @@ body{
     outline: 0;
     font-weight: 600;
     border-radius: 60px; 
-    font-family:'Roboto',sans-serif!important;
+    font-family:'Inter',sans-serif!important;
     font-size: 14px;
     
 }
@@ -221,9 +231,10 @@ body{
 /*button over*/ 
 
 .jumbotron{
-
     background-color: transparent;
-    font-family: 'EB Garamond', serif!important;
+    font-family: 'Inter', serif!important;
+    font-weight: 800;
+
 }
 
 /* line  */
@@ -264,7 +275,7 @@ hr{
 .thin{
     font-weight: 500;
     padding: 5px;
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Inter',sans-serif;
     font-weight: 500;
     margin: 2px;
     border-radius: 4px;
@@ -274,6 +285,7 @@ hr{
 
 .footer{
     font-size: 12px;
+    margin-bottom: 16px;
 }
 
 /* index page design class  */
@@ -313,12 +325,12 @@ hr{
 /* about styles */
 
 .abt{
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Inter',sans-serif;
     font-weight: 500;
 }
 .contact {
     color: #d8d9da;
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Inter',sans-serif;
     font-weight: 300;
 }
 .resume{
